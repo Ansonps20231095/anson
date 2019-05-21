@@ -32,15 +32,7 @@ def lookupColor(color,i):
     # red
     elif color == 17:
         strip[i] = (255,0,0)
-    # white
-    elif color == 20:
-        strip[i] = (255,255,255)
-    # grey
-    elif color == 30:
-        strip[i] = (87,87,87)
-    # light grey
-    elif color == 40:    
-        strip[i] = (181,181.181)
+
 
 # ----------------------------------------------------------------------------------------------------
 # START DO NOT MODIFY THE CODE BETWEEN THE ---
@@ -90,19 +82,4 @@ def showMessageD(nextMessage,duration,myMessage,startingPoint):
 while True:
     if globalvariables.messageID == 1:
         # Call function - showMessage(nextMessageID, messageDuration, message, start)
-        showMessageD(2,17,globalvariables.message1,0)
-
-
-    elif globalvariables.messageID == 2:
-        # Call function - showMessage(nextMessageID, messageDuration, message, start)
-        showMessageD(3,10,globalvariables.message2,0)
-
-
-    elif globalvariables.messageID == 3:
-        # Call function - showMessage(nextMessageID, messageDuration, message, start)
-        showMessageD(4,3,globalvariables.message1,10)
-
-
-    elif globalvariables.messageID == 4:
-        # Call function - showMessage(nextMessageID, messageDuration, message, start)
-        showMessageD(1,15,globalvariables.message2,10)
+        showMessageD(1,100,globalvariables.message1,0)
